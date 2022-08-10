@@ -1,0 +1,76 @@
+[
+    {
+        "type": "end-to-end-latency",
+        "label": 100
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 102
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 98
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 110
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 99
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 100
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 102
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 98
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 110
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 99
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 98
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 110
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 99
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 100
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 102
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 98
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 110
+    },
+    {
+        "type": "end-to-end-latency",
+        "label": 99
+    }
+
+
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "type": "alarm",
+        "label": "Primera alarma de prueba"
+    },
+    {
+        "type": "alarm",
+        "label": "El autobus va a explotar en 5 segundos"
+    },
+    {
+        "type": "alarm",
+        "label": "Yonki a bordo"
+    },
+    {
+        "type": "alarm",
+        "label": "Covid detectado"
+    },
+    {
+        "type": "alarm",
+        "label": "El pasajero se ha tirado un pedo por encima de los niveles permitidos de CO2"
+    }
+
+]

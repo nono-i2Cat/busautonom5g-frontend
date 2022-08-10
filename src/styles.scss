@@ -1,0 +1,81 @@
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+@import './theme/variables.scss';
+
+ion-toolbar {
+    img {
+        max-height: var(--ion-toolbar-height) !important;
+    }
+}
+
+
+ion-grid,
+ion-col {
+    padding: 0;
+}
+
+ion-footer {
+    align-items: center;
+    display: flex;
+    height: var(--ion-footer-height);
+    justify-content: space-between;
+    padding: 5px;
+
+    ion-img {
+        height: calc(var(--ion-toolbar-height) - 10px) !important;
+        width: calc(20%) !important;
+    }
+}
+
+/* Terminal */
+.terminal {    
+    background-color: rgb(15, 15, 16);
+    border-radius: 6px;
+    height: calc(50vh - var(--ion-toolbar-height) - var(--ion-footer-height));
+    max-height: calc(50vh - var(--ion-toolbar-height) - var(--ion-footer-height));
+    margin: 16px;
+    width: 100%;
+    overflow-y: auto;
+    padding-top: 45px;
+    position: relative;
+}
+
+.google-maps {
+    border-radius: 6px;
+    height: calc(100vh - var(--ion-toolbar-height) - var(--ion-footer-height) - 84px);
+    margin: 16px;
+}
+
+/* Terminal header */
+.terminal::before {
+    content: "\2022 \2022 \2022";
+    background: rgb(58, 58, 58);
+    color: #c2c3c4;
+    font-size: 2rem;
+    height: 4px;
+    left: 0;
+    line-height: 0;
+    padding: 14px 0;
+    position: absolute;
+    text-indent: 4px;
+    top: 0;
+    width: 100%;
+}
+
+
+// Hide Google Maps footer options
+.gm-style-cc { display:none; }
